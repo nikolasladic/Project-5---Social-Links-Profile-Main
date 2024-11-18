@@ -27,6 +27,8 @@ html {
   height: 531px;
   width: 304px;
   padding: 40px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 12px;
 }
 
 .avatar {
@@ -61,7 +63,7 @@ html {
 
 .btn {
   background-color: hsl(0, 0%, 20%);
-
+  color: white;
   border: none;
   display: grid;
   cursor: pointer;
@@ -71,8 +73,15 @@ html {
   border-radius: 8px;
   height: 45px;
   width: 100%;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .btn:hover {
   background-color: #c4f82a;
+  transition: 0.3s ease-in;
+  color: black;
+}
+
+@media screen {
 }
