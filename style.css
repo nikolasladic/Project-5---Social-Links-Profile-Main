@@ -60,6 +60,7 @@ html {
 .list {
   width: 100%;
   padding: 0px;
+  margin-top: 10px;
 }
 
 .btn {
