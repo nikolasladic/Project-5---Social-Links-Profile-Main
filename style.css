@@ -77,11 +77,12 @@ html {
   font-weight: 600;
 }
 
+.btn-5 {
+  margin: 0;
+}
+
 .btn:hover {
   background-color: #c4f82a;
   transition: 0.3s ease-in;
   color: black;
-}
-
-@media screen {
 }
